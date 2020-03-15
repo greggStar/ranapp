@@ -8,7 +8,10 @@
         <nuxt-link to="/" class="mr-2 hover:text-purple-700">
           List
         </nuxt-link>
-        <nuxt-link to="/create" class="mr-2 hover:text-purple-700">
+        <nuxt-link
+          :to="{ name: 'event-create' }"
+          class="mr-2 hover:text-purple-700"
+        >
           Create
         </nuxt-link>
       </nav>
