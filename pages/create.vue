@@ -1,6 +1,8 @@
 <template>
   <div class="flex flex-wrap justify-center w-full">
-    <div class="flex text-5xl font-black text-gray-600 mt-10">RanApp</div>
+    <div class="flex text-5xl font-black text-gray-600 mt-10">
+      Create a list item
+    </div>
   </div>
 </template>
 
@@ -8,7 +10,14 @@
 export default {
   head() {
     return {
-      title: 'list listings'
+      title: 'create a list',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Where you can create grand lists'
+        }
+      ]
     }
   }
 }
